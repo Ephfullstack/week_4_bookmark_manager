@@ -16,3 +16,5 @@ class BookmarkManager < Sinatra::Base
 
   run! if app_file == $0
 end
+
+; curl -o .rubocop.yml https://raw.githubusercontent.com/makersacademy/scaffolint/v2.2.0/.rubocop-stub.yml
